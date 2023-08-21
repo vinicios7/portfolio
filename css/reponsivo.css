@@ -1,0 +1,320 @@
+@media screen and (max-width: 768px) {
+	.topo {
+		flex-direction: column;
+		text-align: center;
+		padding-bottom: 30px;
+		height: auto;
+	}
+
+	.logo {
+		margin: 0;
+	}
+
+	.icone-header {
+		padding-top: 0;
+	}
+
+	h1 {
+		padding-left: 0;
+		margin-top: 10px;
+	}
+
+	.menu {
+		margin-right: 0;
+		padding-left: 0;
+	}
+
+	.conteudo-inicial {
+		padding-top: 15%;
+		padding-left: 5%;
+		width: 90%;
+	}
+
+	.imagem-section {
+		padding-top: 15%;
+		padding-right: 5%;
+	}
+
+	.redes-sociais-container {
+		margin-top: 30px;
+	}
+
+	.redes-sociais {
+		width: 25px;
+	}
+
+	.about-h2 {
+		font-size: 24px;
+	}
+
+	.p {
+		text-align: center;
+		text-indent: 0;
+	}
+
+	.skills {
+		justify-content: center;
+	}
+
+	.s-item img {
+		width: 50px;
+	}
+
+	.pro-bloco {
+		flex-direction: column;
+		align-items: center;
+		margin: 20px 0;
+	}
+
+	.agencia-fake img,
+	.gerador img {
+		width: 80%;
+		height: auto;
+		margin: 20px 0;
+	}
+
+	.pro-items {
+		display: none;
+	}
+
+	.contato {
+		margin-top: 40rem;
+	}
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+	/* Estilos para a seção "Sobre Mim" */
+	#about {
+		padding: 40px 10%;
+	}
+
+	.about-h2 {
+		font-size: 28px;
+		margin-top: 20px;
+	}
+
+	.p {
+		text-align: justify;
+		margin-bottom: 20px;
+	}
+
+	.skills {
+		justify-content: center;
+		margin-top: 20px;
+	}
+
+	.s-item img {
+		width: 40px;
+	}
+
+	/* Estilos para a seção "Projetos" */
+	#projects {
+		padding: 40px 10%;
+		height: 300px;
+	}
+
+	.h2-pro {
+		font-size: 30px;
+		padding-top: 20px;
+	}
+
+	.pro-bloco {
+		flex-direction: column;
+		align-items: center;
+		margin: 20px 0;
+	}
+
+	.agencia-fake img,
+	.gerador img,
+	.pro-items {
+		width: 100%;
+		max-width: 300px;
+		height: auto;
+		margin: 10px 0;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.topo {
+		height: auto;
+	}
+
+	.logo {
+		flex-direction: row;
+		margin: 0;
+		text-align: center;
+	}
+
+	.icone-header {
+		padding-top: 0;
+	}
+
+	h1 {
+		padding-left: 0;
+		margin-top: 10px;
+	}
+
+	.menu {
+		margin-right: 0;
+		padding-left: 0;
+	}
+
+	.conteudo-inicial {
+		padding: 30% 5% 0 5%;
+		width: 100%;
+	}
+
+	.redes-sociais-container {
+		margin-top: 30px;
+		justify-content: center;
+	}
+
+	.redes-sociais {
+		width: 25px;
+	}
+
+	.about-h2 {
+		font-size: 24px;
+		padding-right: 4rem;
+		margin-top: 30px;
+	}
+
+	.p {
+		text-align: center;
+		text-indent: 0;
+		margin-bottom: 2px;
+		font-weight: 500;
+	}
+
+	#projects {
+		margin-top: 12rem;
+		height: 300px;
+	}
+
+	.pro-bloco {
+		flex-direction: column;
+		align-items: center;
+		margin: 20px 0;
+	}
+
+	.agencia-fake img,
+	.gerador img,
+	.pro-items {
+		width: 80%;
+		height: auto;
+		margin: 10px 0;
+	}
+
+	.contato {
+		height: auto;
+		padding: 5px 0 30px 0;
+	}
+}
+
+/* Remover a seção de imagem em celulares */
+@media screen and (max-width: 480px) {
+	.imagem-section {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 412px) {
+	#about {
+		padding: 30px 10%;
+	}
+
+	.about-h2 {
+		font-size: 24px;
+		margin-top: 15px;
+	}
+
+	.p {
+		text-align: justify;
+		margin-bottom: 15px;
+	}
+
+	.skills {
+		justify-content: center;
+		margin-top: 15px;
+	}
+
+	.s-item img {
+		width: 30px;
+	}
+
+	/* Estilos para a seção "Projetos" */
+	#projects {
+		padding: 30px 10%;
+		height: 150px;
+	}
+
+	.h2-pro {
+		font-size: 26px;
+		padding-top: 15px;
+	}
+
+	.pro-bloco {
+		flex-direction: column;
+		align-items: center;
+		margin: 15px 0;
+	}
+
+	.agencia-fake img,
+	.gerador img,
+	.pro-items {
+		width: 100%;
+		max-width: 250px;
+		height: auto;
+		margin: 10px 0;
+	}
+}
+
+@media screen and (max-width: 411px) {
+	h1 {
+		font-size: 20px;
+	}
+
+	.menu {
+		padding-left: 15px;
+	}
+
+	.conteudo-inicial {
+		width: 100%;
+		padding: 10% 5%;
+		text-align: center;
+	}
+
+	.redes-sociais-container {
+		margin-top: 30px;
+	}
+
+	.contato {
+		height: auto;
+		padding: 10px 0;
+	}
+
+	#about,
+	#projects {
+		padding: 50px 5%;
+	}
+
+	.pro-bloco {
+		flex-direction: column;
+		margin: 20px 0;
+	}
+
+	.pro-bloco a {
+		margin: 10px 0;
+	}
+
+	.agencia-fake img,
+	.gerador img,
+	.pro-items {
+		width: 100%;
+		height: auto;
+	}
+
+	.imagem-section {
+		display: none;
+	}
+}
