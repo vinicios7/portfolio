@@ -233,8 +233,7 @@
 	}
 
 	.imagem-section {
-		width: 60%;
-		height: 20px;
+		display: none;
 	}
 }
 
