@@ -1,4 +1,8 @@
 @media screen and (max-width: 768px) {
+	html {
+		scroll-padding-top: 7rem;
+	}
+
 	.topo {
 		flex-direction: column;
 		text-align: center;
@@ -84,6 +88,10 @@
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
 	/* Estilos para a seção "Sobre Mim" */
+	html {
+		scroll-padding-top: 7rem;
+	}
+
 	#about {
 		padding: 40px 10%;
 	}
@@ -135,6 +143,10 @@
 }
 
 @media screen and (max-width: 480px) {
+	html {
+		scroll-padding-top: 7rem;
+	}
+
 	.topo {
 		height: auto;
 	}
@@ -213,8 +225,16 @@
 
 /* Remover a seção de imagem em celulares */
 @media screen and (max-width: 480px) {
+	main {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
 	.imagem-section {
-		display: none;
+		width: 60%;
+		height: 20px;
 	}
 }
 
