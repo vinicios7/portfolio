@@ -225,12 +225,6 @@
 
 /* Remover a seção de imagem em celulares */
 @media screen and (max-width: 480px) {
-	main {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
 
 	.imagem-section {
 		display: none;
@@ -285,6 +279,10 @@
 		max-width: 250px;
 		height: auto;
 		margin: 10px 0;
+	}
+
+	.imagem-section {
+		display: none;
 	}
 }
 
